@@ -9,19 +9,28 @@
 
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   </head>
 
   <body>
     <!-- навигация -->
     <nav>
-        <h1>Solar System</h1>
-        <ul>
-            <li><a href="#" >Main</a></li>
-            <li><a href="#">Star</a></li>
-            <li><a href="#">Planets</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contacts<a></li>
-        </ul>
+
+        <div class="row">
+            <div class="column">
+                <strong>Solar System</strong>
+            </div>
+            <div class="column">
+                <a href="#">Main</a>
+                <a href="#star">Star</a>
+                <a href="#planets">Planets</a>
+                <a href="#aboutus">About Us</a>
+                <a href="#contacts">Contacts</a>
+            </div>
+        </div>
     </nav>
     <!-- шапка-->
     <header>
@@ -30,14 +39,20 @@
     <!-- основная часть -->
     <main>
         <!-- секция 1 -->
-        <section>
-             <h4>About Our Star</h4>
-             <p>Sun its our main star of solar system</p>
-             <img width="100" src="https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001435/GSFC_20171208_Archive_e001435~large.jpg?w=1920&h=1920&fit=clip&crop=faces%2Cfocalpoint" />
+        <section class="solar-card" id="star">
+        <div class="row">
+            <div class="column">
+                <h4>About Our Star</h4>
+                <p>Sun its our main star of solar system</p>
+            </div>
+
+            <div class="column">
+                <img width="100" src="https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001435/GSFC_20171208_Archive_e001435~large.jpg?w=1920&h=1920&fit=clip&crop=faces%2Cfocalpoint" />
+            </div>
         </section>
         
         <!-- секция 2 -->
-        <section>
+        <section id="planets">
             <h3>About Our Planets</h3>
             <p>Our Solar System has eight planets that orbit the Sun. Each one is unique:</p>
             <ul>
@@ -61,14 +76,14 @@
             </ul>
         </section>
 
-        <section>
+        <section id="aboutus">
             <h4>About Us</h4>
-            <h2> Welcome! We are passionate about space and created this site to share interesting and fun facts about the planets in our Solar System. Here, you can learn what makes each planet special, how they move, and what they’re made of.
+            <p> Welcome! We are passionate about space and created this site to share interesting and fun facts about the planets in our Solar System. Here, you can learn what makes each planet special, how they move, and what they’re made of.
                 We believe learning about the universe should be easy and exciting. That’s why we explain everything in a simple way, perfect for kids, students, and anyone curious about space.
-                Explore with us — and discover the wonders of the planets!</h2>
+                Explore with us — and discover the wonders of the planets!</p>
         </section>
 
-        <section>
+        <section id="contacts">
             <h4>Contacts</h4>
             <ul>
                 <li>+380 (00) 00 00 000</li>

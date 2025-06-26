@@ -1,0 +1,63 @@
+body {
+
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: x-large;
+}
+
+.solar-card
+{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+nav
+{
+    padding: 30px;
+    background-color: lightblue;
+    margin: 0px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+a {
+    margin: 0px 0px 10px 10px;
+    color: white;
+
+}
+
+header {
+    background-color: lightcyan;
+    padding: 50px;
+    margin: 0px;
+    text-align: center;
+    color: black;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+img {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover; 
+}
